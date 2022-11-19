@@ -1,4 +1,20 @@
 @media only screen and (max-width: 1200px) {
+    .sbox {
+        width: 340px;
+        height: auto;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 300px;
+    }
+
+    .simg>img {
+        width: 290px;
+        height: 240px;
+    }
+
     .intro p {
         font-size: 1.3rem;
     }
@@ -54,12 +70,18 @@
         width: 8.8rem;
     }
 
-
-
     .h-img>img {
         width: 400px;
         height: 400px;
     }
+
+
+    .sBox{
+        width: 374px;
+    }
+
+ 
+
 }
 
 
@@ -83,7 +105,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-list{
+    .nav-list {
         display: flex;
         position: fixed;
         top: 10%;
@@ -94,17 +116,17 @@
         width: 100%;
         height: 85vh;
         /* text-align: center; */
-        transition: 0.3s ;
+        transition: 0.3s;
         z-index: 2;
 
     }
 
-    .nav-list.active{
+    .nav-list.active {
         left: 0;
-        align-items:center;
+        align-items: center;
     }
 
-    .nav-items{
+    .nav-items {
         display: flex;
         margin: 1rem 1rem;
         /* outline: 2px solid red; */
@@ -173,11 +195,11 @@
     }
 }
 
-@media (min-width: 986px){
+@media (min-width: 986px) {
     .dropdown-k {
         left: 24%;
     }
-    
+
     .dropdown-c {
         left: 44%;
     }
@@ -187,11 +209,11 @@
     }
 }
 
-@media (min-width: 1124px){
+@media (min-width: 1124px) {
     .dropdown-k {
         left: 26%;
     }
-    
+
     .dropdown-c {
         left: 44%;
     }
@@ -201,11 +223,11 @@
     }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .dropdown-k {
         left: 30%;
     }
-    
+
     .dropdown-c {
         left: 48%;
     }
@@ -215,11 +237,11 @@
     }
 }
 
-@media (min-width: 1304px){
+@media (min-width: 1304px) {
     .dropdown-k {
         left: 38%;
     }
-    
+
     .dropdown-c {
         left: 54%;
     }
@@ -229,11 +251,11 @@
     }
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
     .dropdown-k {
         left: 44%;
     }
-    
+
     .dropdown-c {
         left: 58%;
     }
@@ -243,11 +265,11 @@
     }
 }
 
-@media (min-width: 2500px){
+@media (min-width: 2500px) {
     .dropdown-k {
         left: 47%;
     }
-    
+
     .dropdown-c {
         left: 56%;
     }
