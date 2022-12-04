@@ -186,14 +186,10 @@
         text-align: justify;
     }
 
-    .fo{
-        outline: 2px solid red;
-    }
 
     .t{
         display: flex;
         flex-direction: column;
-        outline: 2px solid red;
         margin: 0;
         padding: 0;
         align-items: flex-start;
