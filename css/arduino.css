@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1400px;
+    width: 86%;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0px 6px 24px #0000000a;
+}
+
+.anav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.anav>h1 {
+    font-size: 2rem;
+    color: #00609F;
+}
+
+.arduino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 60vh; */
+}
+
+.ar {
+    display: flex;
+    /* outline: 2px solid red; */
+    margin: 2rem 0;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo>img {
+    width: 12rem;
+    margin-top: 1rem;
+}
+
+
+.nav-list>li {
+    list-style-type: none;
+    /* outline: 2px solid red; */
+}
+
+.nav-list>li>a{
+    font-size: 1.4rem;
+    color: #333333;
+    font-weight: 500;
+    opacity: 63%;
+    padding: 0.2rem;
+    text-decoration: none;
+    margin: 0.6rem;
+}
+button {
+    padding: 8px 16px;
+    outline: none;
+    border: 0;
+    background-color: #008deb;
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+
+.a1 {
+    margin-right: 2.2rem;
+    /* outline: 2px solid blue; */
+}
+
+
+.aimg {
+    /* width: 50%; */
+    /* outline: 2px solid blue; */
+    display: flex;
+}
+
+.aimg>img {
+    width: 32rem;
+    height: 24rem;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+    border-radius: 12px;
+    /* outline: 2px solid red; */
+}
+
+.a2 {
+    margin-left: 2rem;
+}
+
+h1,
+h2 {
+    color: #014c7e;
+    font-size: 2.6rem;
+}
+
+p {
+    color: #1c2d38;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.ar4 {
+    padding: 12px;
+    text-align: center;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    /* height: 60vh; */
+}
+
+ol>li {
+    /* list-style-type: decimal; */
+    list-style-image: url(/icons8-checkmark-16.png);
+    text-align: left;
+}
+
+.head3>span{
+    font-size: 1.2rem;
+
+}
+
+
+.box {
+    display: flex;
+    /* outline: 2px solid red; */
+    /* padding: 12px; */
+    justify-content: space-between;
+    text-align: left;
+}
+
+.head3{
+    
+    text-align: left;
+}
+
+.h2{
+    width: 50%;
+}
+
+.h2>p {
+    /* text-align: center; */
+    color: #05283f;
+    font-size: 1.8rem;
+    word-wrap: break-word;
+    margin-bottom: 0.6rem;
+    /* text-decoration:1px solid underline; */
+}
+
+.h2>span {
+    /* margin-top: 4rem; */
+    font-size: 1.2rem;
+    /* margin-bottom: rem; */
+}
+
+.lis {
+    margin-left:1.2rem;
+}
+
+ol{
+    margin-top: 0.5rem;
+}
+
+.lis>ol>li {
+    color: #0e0e0e;
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+}
+
+.d3>p {
+    font-size: 1.4rem;
+    color: #111112;
+    text-align: justify;
+}
+
+.d3>span {
+    font-size: 16rem;
+}

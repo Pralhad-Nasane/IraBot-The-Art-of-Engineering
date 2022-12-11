@@ -19,7 +19,6 @@
 .container {
     max-width: 1400px;
     width: 86%;
-    /* outline: 2px solid red; */
 }
 
 .h-nav {
@@ -208,7 +207,10 @@ li>button {
 .box3 {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     padding: 12px;
+    /* outline: 2px solid green; */
+    /* box-shadow: 0px 6px 12px rgba(8, 8, 8, 0.08); */
 }
 
 .box1>.sbox>.simg>img {
@@ -236,6 +238,7 @@ li>button {
 }
 
 .logoP {
+    /* outline: 2px solid red; */
     text-align: center;
     margin: 1rem;
 }
@@ -244,9 +247,12 @@ li>button {
 
 .logoP>img {
     height: 8rem;
+    /* margin: 0.4rem; */
 }
 
 .h2 {
+    /* text-align: center; */
+    /* outline: 2px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -259,9 +265,13 @@ li>button {
 }
 
 .sbox {
+    /* display: flex; */
+    /* justify-content: center; */
     width: 380px;
     height: 440px;
     padding: 12px;
+    /* outline: 1px solid rgba(0, 0, 0, 0.18); */
+    /* box-shadow: 0px 6px 12px rgba(8, 8, 8, 0.3); */
     border-radius: 8px;
 }
 
@@ -319,7 +329,7 @@ li>button {
     /* box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1); */
     /* box-shadow: 0px 0px 34px rgba(0, 68, 255, 0.1); */
     
-    box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 18px 32px rgba(0, 68, 255, 0.1);
     
     /* justify-content: center; */
     /* outline: 2px solid red; */
@@ -327,14 +337,14 @@ li>button {
 
 .items:hover {
     border: 0;
-    box-shadow: 6px 24px 32px rgba(0, 68, 255, 0.16);
+    box-shadow: 0px 18px 32px rgba(0, 68, 255, 0.16);
+
 }
 
 .items>img{
     width: 20rem;
     height: 13rem;
     border-radius: 2px;
-    object-fit: cover;
 }
 
 .title{
@@ -358,6 +368,7 @@ footer{
 .ff{
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
 }
 
 .ff>.images{
