@@ -137,7 +137,7 @@ p {
 
 ol>li {
     /* list-style-type: decimal; */
-    list-style-image: url(/icons8-checkmark-16.png);
+    list-style-image: url(../img/icons8-checkmark-16.png);
     text-align: left;
 }
 
