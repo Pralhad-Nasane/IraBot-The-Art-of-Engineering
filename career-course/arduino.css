@@ -68,7 +68,7 @@
     font-size: 1.4rem;
     color: #333333;
     font-weight: 500;
-    opacity: 63%;
+    /* opacity: 63%; */
     padding: 0.2rem;
     text-decoration: none;
     margin: 0.6rem;
@@ -136,8 +136,6 @@ p {
 }
 
 ol>li {
-    /* list-style-type: decimal; */
-    /* list-style-image: url(../img/icons8-checkmark-16.png); */
     list-style-image: url(check.png);
     text-align: left;
 }
