@@ -104,23 +104,21 @@ button {
 
 .a1 {
     margin-right: 2.2rem;
-    /* outline: 2px solid blue; */
 }
 
 
 .aimg {
-    /* width: 50%; */
-    /* outline: 2px solid blue; */
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aimg>img {
-    width: 32rem;
-    height: 24rem;
+    width: 30rem;
+    height: 22rem;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     background-blend-mode: darken;
     border-radius: 12px;
-    /* outline: 2px solid red; */
 }
 
 .a2 {
@@ -164,8 +162,6 @@ ol>li {
 
 .box {
     display: flex;
-    /* outline: 2px solid red; */
-    /* padding: 12px; */
     justify-content: space-between;
     text-align: left;
 }
@@ -180,18 +176,14 @@ ol>li {
 }
 
 .h2>p {
-    /* text-align: center; */
     color: #05283f;
     font-size: 1.8rem;
     word-wrap: break-word;
     margin-bottom: 0.6rem;
-    /* text-decoration:1px solid underline; */
 }
 
 .h2>span {
-    /* margin-top: 4rem; */
     font-size: 1.2rem;
-    /* margin-bottom: rem; */
 }
 
 .lis {
