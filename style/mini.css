@@ -206,6 +206,31 @@
     .l{
         margin: 0;
     }
+
+    
+    .c{
+        /* justify-content: space-between; */
+        flex-direction: column-reverse;
+    }
+
+    .c>p{
+        width: 100%;
+        font-size: 1rem;
+        /* display: block; */
+    }
+
+    .ff{
+        flex-direction: column;
+    }
+
+    .t{
+        flex-direction: row;
+    }
+    .t>a{
+        font-size: 0.8rem;
+        margin: 0 1rem;
+        color: #1e1e1e;
+    }
 }
 
 @media (min-width: 986px) {
