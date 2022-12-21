@@ -58,7 +58,7 @@
 
 .nav .nav-list>li>a:hover {
     color: #0088E2;
-    padding: 8px 12px;
+    /* padding: 0px 8px; */
     opacity: 100%;
     background-color: #0088e20c;
 }

@@ -67,10 +67,11 @@
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1026px) {
 
     .hamburger {
         display: block;
+        z-index: 22;
     }
 
     .hamburger.active .bar:nth-child(2) {
