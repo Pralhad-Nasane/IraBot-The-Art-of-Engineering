@@ -107,13 +107,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* outline: 2px solid red; */
-    /* width: 70%;   */
 }
 
 .img-fluid{
-    /* width: 100%;
-    height: auto; */
     width: 30rem;
     height: 24rem;
 
@@ -123,7 +119,6 @@ button {
 }
 
 .a1{
-    /* outline: 2px solid purple; */
     padding: 0px 34px;
 }
 h1,
