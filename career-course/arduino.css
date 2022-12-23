@@ -220,7 +220,7 @@ li.ali {
 }
 
 
-.anav .nav-list>li>a {
+.anav .nav-list>li{
     font-size: 1.4rem;
     color: #222222;
     font-weight: 500;
