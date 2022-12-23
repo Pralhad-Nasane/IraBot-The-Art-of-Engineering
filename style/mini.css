@@ -104,9 +104,9 @@
         flex-direction: column;
         background-color: #ffffff;
         width: 100%;
-        height: 85vh;
+        height: auto;
         /* text-align: center; */
-        transition: 0.3s;
+        /* transition: 0.3s; */
         z-index: 2;
 
     }
@@ -118,15 +118,25 @@
 
     .nav-items {
         display: flex;
-        margin: 1rem 1rem;
+        flex-direction: column;
+        /* margin: 1rem 1rem; */
     }
 
-    .nav .nav-list .other-s:hover .dropdown-k,
+    .dropdown-k{
+        top: 0;
+        position: relative;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    /* .nav .nav-list .other-s:hover .dropdown-k,
     .nav .nav-list .kid-menu:hover .dropdown-k,
     .nav .nav-list .career-menu:hover .dropdown-k {
-        display: none;
-    }
-
+        display: block;
+    } */
+    
 
 
     .h-nav {
