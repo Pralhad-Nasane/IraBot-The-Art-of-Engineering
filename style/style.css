@@ -45,14 +45,14 @@
     justify-content: center;
 }
 
-.nav .nav-list>li>a {
-
+.nav .nav-list>li{
     font-size: 1.4rem;
     color: #222222;
     font-weight: 500;
     padding: 0.2rem;
     text-decoration: none;
     margin: 0.6rem;
+    cursor: pointer;
 }
 
 

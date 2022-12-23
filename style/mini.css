@@ -105,8 +105,6 @@
         background-color: #ffffff;
         width: 100%;
         height: auto;
-        /* text-align: center; */
-        /* transition: 0.3s; */
         z-index: 2;
 
     }
@@ -131,11 +129,10 @@
         width: 100%;
     }
 
-    /* .nav .nav-list .other-s:hover .dropdown-k,
-    .nav .nav-list .kid-menu:hover .dropdown-k,
-    .nav .nav-list .career-menu:hover .dropdown-k {
-        display: block;
-    } */
+    .nav .nav-list .career-menu .dropdown-k{
+        width: 100%;
+        padding: 0;
+    }
     
 
 
