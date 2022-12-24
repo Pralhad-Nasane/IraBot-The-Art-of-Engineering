@@ -137,6 +137,11 @@
         width: 100%;
         padding: 0;
     }
+
+    .other-s, .career-menu, .kid-menu{
+        text-align: center;
+        width: 100%;
+    }
     
 
 
