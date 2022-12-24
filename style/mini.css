@@ -95,11 +95,17 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .head{
+        position: sticky;
+        background-color: #ffffff;
+        width: 100%;
+        top: 0;
+        z-index: 66;
+    }
+
     .h-nav{
         background-color: #ffffff;
         z-index: 33;
-        position: fixed;
-        top: 0;
     }
     .nav-list {
         display: flex;
@@ -110,7 +116,7 @@
         background-color: #ffffff;
         width: 100%;
         height: auto;
-        z-index: 2;
+        z-index: 445;
 
     }
 

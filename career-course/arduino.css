@@ -17,7 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 9vh;
+    width: 100%;
     box-shadow: 0px 6px 24px #0000000a;
 }
 
@@ -53,10 +54,16 @@
 
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
 
 .logo>img {
-    width: 12rem;
-    margin-top: 1rem;
+    max-width: 100%;
+    width: 66%;
 }
 
 
@@ -75,7 +82,7 @@
 }
 
 button {
-    padding: 8px 16px;
+    padding:8px 18px;
     outline: none;
     border: 0;
     background-color: #008deb;

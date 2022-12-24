@@ -94,8 +94,9 @@
     .nav-list {
         display: flex;
         position: fixed;
-        top: 10%;
-        left: -100%;
+      
+        top: -100%;
+        /* left: -100%; */
         flex-direction: column;
         background-color: #ffffff;
         width: 100%;
@@ -107,7 +108,9 @@
 
     .nav-list.active {
         left: 0;
+        top: 8%;
         align-items: center;
+        transition: 0.4s ease-out;
     }
 
     .head{
@@ -140,12 +143,8 @@
     .other-s, .career-menu, .kid-menu{
         text-align: center;
         width: 100%;
-        background-color:#005f9f0b;
     }
 
-    #other-s>ul>li>a:hover, #career-menu:hover, #kid-menu:hover{
-        transition: all 12s ease-in-out;
-    }
 }
 
 @media (max-width:1038px){
