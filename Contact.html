@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mini.css">
+
+    <style>
+        .nav-items>button>a {
+            padding: 6px 12px;
+            color: #ffff;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+
+        #kid-menu>.dropdown-k {
+            left: 44%;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("R00nfA-q5eoDc1CJ0");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="head">
+        <header class="container h-nav">
+            <div class="logo">
+                <img class="logo-img" src="img/1.svg" alt="" class="logos">
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <!-- 1 -->
+                    <li class="kid-menu nav-items li">
+                        Kids 8+ Courses
+                        <div class="dropdown-k submenu" id="kid-menu">
+                            <ul>
+                                <li><a href="">Creating Machines Without Coding</a></li>
+                                <li><a href="">Creating Robotics with Coding</a></li>
+                                <li><a href="">Learning Math and Science with Coding</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- 2 -->
+                    <li class="career-menu nav-items li">Career-Courses
+                        <div class="dropdown-k dropdown-c" id="career-menu">
+                            <ul>
+                                <li><a href="career-course/Python.html">Python Developer</a></li>
+                                <li><a href="career-course/frontend-developer.html">Frontend Developer</a></li>
+                                <li><a href="career-course/java.html">Java Developer</a></li>
+                                <li><a href="career-course/raspberryPi.html">RasberyPi</a></li>
+                                <li><a href="career-course/arduino.html">Aurdino</a></li>
+                                <li><a href="career-course/machine-learning.html">ML (Considering Engineering
+                                        Subjects)</a></li>
+                                <li><a href="career-course/artificial-intelligence.html">Artificial intelligence</a>
+                                </li>
+                                <li><a href="career-course/iot.html">IoT</a></li>
+                                <li><a href="career-course/drone.html">Drone</a></li>
+                                <li><a href="">Cloud Computing</a></li>
+                                <li><a href="career-course/linux.html">Linux</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- 3 -->
+                    <li class="other-s nav-items li">Other Services
+                        <div class="dropdown-k dropdown-s" id="other-s">
+                            <ul>
+                                <li><a href="">Robotics Lab</a><br></li>
+                                <li><a href="">Mini-Science Lab</a><br></li>
+                                <li><a href="">Coding Lab</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- 4 -->
+                    <li class="nav-items li" class="nav-link"><button><a href="index.html">HOME</a></button></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+
+        </header>
+    </div>
+
+
+    <main class="cmain">
+
+        <section id="modal-window" class="modal-window">
+
+            <div class="contact-container">
+
+                <div class="contactInfo">
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li>
+                                <span><img src="img/location.png" alt="location"></span>
+                                <span>Navi Mumbai, India</span>
+                            </li>
+                        </ul>
+                        <ul class="info">
+                            <li>
+                                <span><img src="img/mail.png" alt="mail"></span>
+                                <span>contact@irabot.in</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="https://github.com/Pralhad-Nasane" target="_blank"><img src="img/instagram.png"
+                                    alt="Instagram"></a>
+                        </li>
+
+                        <li><a href="https://twitter.com/Pralhad_Nasane" target="_blank"><img src="img/twitter.png"
+                                    alt="Twitter"></a>
+                        </li>
+
+                        <li><a href="https://in.linkedin.com/in/pralhadnasane" target="_blank"><img
+                                    src="img/linkedin.png" alt="Linkedin"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contactForm">
+
+                    <h2>Send a Message</h2>
+                    <div class="formBox" id="#contact-form">
+                        <div class="inputs w100">
+                            <label class="required-field">Full Name</label>
+                            <input id="full_name" type="text" required>
+                        </div>
+
+                        <!-- <div class="inputs w50">
+                            <label class="required-field">Last Name</label>
+                            <input id="last_name" type="text" required>
+                        </div> -->
+
+                        <div class="inputs w50">
+                            <label class="required-field">Email ID</label>
+                            <input id="email_id" type="email" required>
+                        </div>
+
+                        <div class="inputs w50">
+                            <label class="required-field">Contact</label>
+                            <input id="contact_number" class="input.control" type="tel" required>
+                        </div>
+
+                        <div class="inputs w100">
+                            <label class="required-field">Write your message here...</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+
+                        <div class="inputs w100">
+                            <input class="send" onclick="SendMail()" type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
