@@ -406,21 +406,19 @@ footer {
 }
 
 .c>p {
-    /* outline: 2px solid green; */
     width: 70%;
-    /* display: flex; */
     font-size: 1.2rem;
     text-align: center;
 
 }
 
-.c>.images>img {
+.c>.images>a>img {
     width: 22px;
     height: 22px;
     margin: 0.4rem;
 }
 
-.c>.images>img:hover {
+.c>.images>a>img:hover {
     cursor: pointer;
 }
 

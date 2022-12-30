@@ -408,16 +408,6 @@
     .contactInfo {
         margin-top: 4rem;
     }
-/* 
-    .contact-container {
-        width: 100%;
-        border: 2px solid red;
-        height: auto;
-        display: flex;
-        flex-direction: column-reverse;
-        box-shadow: none;
-        background-color: transparent;
-    } */
 
 }
 
@@ -427,8 +417,10 @@
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        /* height: auto; */
-        /* outline: 2px solid red; */
+    }
+
+    .contact-container .contactForm .formBox .inputs.w50{
+        width: 100%;
     }
 
     .contact-container .contactForm{
@@ -440,7 +432,7 @@
 
     .contact-container .contactInfo{
         position: static;
-        margin-top: 0.8rem;
+        margin-top: 4.6rem;
         padding: 0 0 0 24px;
         flex-direction: row;
         width: 100%;
