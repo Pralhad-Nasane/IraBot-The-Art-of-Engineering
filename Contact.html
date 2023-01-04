@@ -22,6 +22,14 @@
         #kid-menu>.dropdown-k {
             left: 44%;
         }
+
+        .text-danger{
+            color: red;
+        }
+
+        .text-success{
+            color: rgb(0, 243, 0);
+        }
     </style>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -124,12 +132,12 @@
                         </ul>
                     </div>
                     <ul class="sci">
-                        <li><a href="https://instagram.com/irabot_theartofengineering?igshid=MDM4ZDc5MmU=" target="_blank"><img src="img/instagram.png"
-                                    alt="Instagram"></a>
+                        <li><a href="https://instagram.com/irabot_theartofengineering?igshid=MDM4ZDc5MmU="
+                                target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
                         </li>
 
-                        <li><a href="https://twitter.com/Irabot_tech?t=12cOK_TyIbqz80bj16rLcQ&s=09" target="_blank"><img src="img/twitter.png"
-                                    alt="Twitter"></a>
+                        <li><a href="https://twitter.com/Irabot_tech?t=12cOK_TyIbqz80bj16rLcQ&s=09" target="_blank"><img
+                                    src="img/twitter.png" alt="Twitter"></a>
                         </li>
 
                         <li><a href="https://www.linkedin.com/company/irabot/" target="_blank"><img
@@ -139,43 +147,49 @@
                 </div>
 
                 <div class="contactForm">
+                    <form onsubmit="return validate()" novalidate>
+                        <h2>Send a Message</h2>
+                        <div class="formBox" id="#contact-form">
+                            <div class="inputs w100">
+                                <label class="required-field">Full Name</label>
+                                <input class="name-field" id="full_name" type="text" required>
+                                <small class="name-field-msg"></small>
+                            </div>
 
-                    <h2>Send a Message</h2>
-                    <div class="formBox" id="#contact-form">
-                        <div class="inputs w100">
-                            <label class="required-field">Full Name</label>
-                            <input id="full_name" type="text" required>
-                        </div>
-
-                        <!-- <div class="inputs w50">
+                            <!-- <div class="inputs w50">
                             <label class="required-field">Last Name</label>
                             <input id="last_name" type="text" required>
                         </div> -->
 
-                        <div class="inputs w50">
-                            <label class="required-field">Email ID</label>
-                            <input id="email_id" type="email" required>
-                        </div>
+                            <div class="inputs w50">
+                                <label class="required-field">Email ID</label>
+                                <input class="email-field" id="email_id" type="email" required>
+                                <small class="email-field-msg"></small>
+                            </div>
 
-                        <div class="inputs w50">
-                            <label class="required-field">Contact</label>
-                            <input id="contact_number" class="input.control" type="tel" required>
-                        </div>
+                            <div class="inputs w50">
+                                <label class="required-field">Contact</label>
+                                <input class="contact-field" id="contact_number" class="input.control" type="tel"
+                                    required>
+                                <small class="contact-field-msg"></small>
+                            </div>
 
-                        <div class="inputs w100">
-                            <label class="required-field">Write your message here...</label>
-                            <textarea id="message" required></textarea>
-                        </div>
+                            <div class="inputs w100">
+                                <label class="required-field">Write your message here...</label>
+                                <textarea id="message" ></textarea>
+                            </div>
 
-                        <div class="inputs w100">
-                            <input class="send" onclick="SendMail()" type="submit" value="Send">
+                            <div class="inputs w100">
+                                <input class="send" onclick="SendMail()" type="submit" value="Send">
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
 
     </main>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
 </body>
 
 </html>
