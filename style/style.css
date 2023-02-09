@@ -162,7 +162,6 @@ li>button {
     color: #333;
 }
 
-
 .dropdown-k li:hover {
     background-color: #3bb1ff2d;
     border-left: 2px solid #00609F;
@@ -229,8 +228,6 @@ li>button {
 .sbox {
     outline: 2px solid black;
 }
-
-
 
 .partner {
     display: flex;
@@ -456,10 +453,6 @@ footer {
     /* height: 80vh; */
 }
 
-
-
-
-
 .contact-container {
     margin-top: 2rem;
     position: relative;
@@ -581,13 +574,11 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 30px;
-
 }
 
 .contact-container .contactForm .formBox .inputs {
     position: relative;
     margin-bottom: 35px;
-
 }
 
 .contact-container .contactForm .formBox .inputs label {
@@ -597,7 +588,6 @@ footer {
 
 .contact-container .contactForm .formBox .inputs.w50 {
     width: 47%;
-
 }
 
 .contact-container .contactForm .formBox .inputs.w100 {
@@ -620,7 +610,6 @@ footer {
 .contact-container .contactForm .formBox .inputs textarea {
     height: 80px;
 }
-
 
 .contact-container .contactForm .formBox .inputs input[type="submit"] {
     position: relative;
